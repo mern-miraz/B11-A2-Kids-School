@@ -1,0 +1,66 @@
+* {
+  font-family: "Quicksand", serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.main-display {
+  width: 1160px;
+  margin: 0 auto;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.nav-main {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.nav-home {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 30px;
+  color: #fea301;
+}
+.nav-about {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #01acfd;
+}
+.nav-fac {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #05d4df;
+}
+.nav-ad {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #5d58ef;
+}
+.nav-contact {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  background-color: #fea301;
+  padding: 10px 60.5px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
