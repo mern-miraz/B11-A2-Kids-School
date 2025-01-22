@@ -7,6 +7,10 @@ li {
 a {
   text-decoration: none;
 }
+button {
+  border: none;
+  background-color: transparent;
+}
 .main-display {
   width: 1160px;
   margin: 0 auto;
@@ -58,6 +62,48 @@ ul {
   color: #ffffff;
   background-color: #fea301;
   padding: 10px 60.5px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+/* Banner part start */
+
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-text {
+  width: 640px;
+}
+.banner-title {
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 61px;
+  padding-right: 80px;
+}
+.ban-emp {
+  color: #fea301;
+}
+.ban-to {
+  color: #01acfd;
+}
+.banner-description {
+  font-weight: 400;
+  font-size: 20px;
+  color: #111111;
+}
+.banner-btn {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  padding: 10px 47px;
+  margin-top: 24px;
+  background: #111111;
   border-radius: 12px;
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
