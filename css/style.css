@@ -29,7 +29,7 @@ button {
   justify-content: space-between;
   align-items: center;
 }
-ul {
+.nav-main ul {
   display: flex;
   align-items: center;
   gap: 32px;
@@ -315,4 +315,51 @@ ul {
   -moz-border-radius: 12px;
   -ms-border-radius: 12px;
   -o-border-radius: 12px;
+}
+
+/* footer part start */
+
+#footer {
+  padding: 123px 0 173px;
+  background-color: #01acfd;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer-logo-title {
+  font-weight: bold;
+  font-size: 43px;
+  line-height: 40px;
+  color: #ffffff;
+}
+.footer-logo-description {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  width: 399px;
+}
+.footer-school {
+  font-weight: bold;
+  font-size: 24px;
+  color: #ffffff;
+}
+.footer-menu ul li a {
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+}
+.footer-menu ul li {
+  padding: 17px 0;
+}
+.footer-touch {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 26px;
+  color: #ffffff;
 }
