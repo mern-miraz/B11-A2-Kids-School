@@ -11,6 +11,9 @@ button {
   border: none;
   background-color: transparent;
 }
+.text-center {
+  text-align: center;
+}
 .main-display {
   width: 1160px;
   margin: 0 auto;
@@ -109,4 +112,83 @@ ul {
   -moz-border-radius: 12px;
   -ms-border-radius: 12px;
   -o-border-radius: 12px;
+}
+
+/* Curriculum  part start */
+
+#curriculum {
+  padding: 60px 0;
+}
+.cur-title {
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 57.5px;
+  color: #000000;
+}
+.cur-container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32.069px;
+}
+.cur-card {
+  border-radius: 18.864px;
+  border: 0.943px solid #def5ff;
+  background: linear-gradient(180deg, #def5ff 0%, rgba(255, 255, 255, 0) 40%),
+    #fff;
+  box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+  padding: 52.819px 40.668px 53.762px 40.878px;
+}
+.cur-card-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #202020;
+  margin-top: 32px;
+}
+.cur-card-description {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 28px;
+  color: #808080;
+  margin-top: 32px;
+}
+.cur-card-btn {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 28px;
+  color: #64c8ff;
+  margin-top: 38px;
+}
+.car-btn-2 {
+  color: #f0aa00;
+}
+.car-btn-3 {
+  color: #8700ff;
+}
+.cur-card-2 {
+  background: linear-gradient(180deg, #fff4dc 0%, rgba(255, 255, 255, 0) 40%),
+    #fff;
+}
+.cur-card-3 {
+  background: linear-gradient(180deg, #eee1ff 0%, rgba(255, 255, 255, 0) 40%),
+    #fff;
+}
+
+.cur-arrow-btn {
+  margin-top: 80px;
+}
+.cur-arrow-btn-1 {
+  height: 60px;
+  width: 60px;
+  font-size: 30px;
+  color: white;
+  line-height: 60px;
+  background-color: #fea301;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
